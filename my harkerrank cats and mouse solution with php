@@ -1,0 +1,48 @@
+This is the link to the cats and mouse problem; https://www.hackerrank.com/challenges/cats-and-a-mouse/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
+
+My solution below. Read the comments (//) to guild you through.
+
+<?php
+
+// Complete the catAndMouse function below.
+function catAndMouse($x, $y, $z) {
+// USEING THE PHP LANGUAGE ***My code starts from here***
+    $result="";
+    $a=$x-$z;
+    $b=$y-$z;
+    $c=abs($a);
+    $d=abs($b);
+    if($c<$d){
+        $result = "Cat A";
+    }elseif($c>$d){
+        $result = "Cat B";
+    }else{
+        $result = "Mouse C";
+    }
+ return $result;
+// ***And end here.***
+}
+
+$fptr = fopen(getenv("OUTPUT_PATH"), "w");
+
+$stdin = fopen("php://stdin", "r");
+
+fscanf($stdin, "%d\n", $q);
+
+for ($q_itr = 0; $q_itr < $q; $q_itr++) {
+    fscanf($stdin, "%[^\n]", $xyz_temp);
+    $xyz = explode(' ', $xyz_temp);
+
+    $x = intval($xyz[0]);
+
+    $y = intval($xyz[1]);
+
+    $z = intval($xyz[2]);
+
+    $result = catAndMouse($x, $y, $z);
+
+    fwrite($fptr, $result . "\n");
+}
+
+fclose($stdin);
+fclose($fptr);
