@@ -6,7 +6,7 @@ My solution below. Read the comments (//) to guild you through.
 
 // Complete the catAndMouse function below.
 function catAndMouse($x, $y, $z) {
-// USEING THE PHP LANGUAGE ***My code starts from here***
+// USEING THE PHP LANGUAGE ****My code starts from here****
     $result="";
     $a=$x-$z;
     $b=$y-$z;
@@ -20,7 +20,7 @@ function catAndMouse($x, $y, $z) {
         $result = "Mouse C";
     }
  return $result;
-// ***And end here.***
+// ****And end here.****
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
