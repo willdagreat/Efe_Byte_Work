@@ -1,0 +1,259 @@
+*{
+	box-sizing: border-box;
+}
+html { height: 100%; width: 100%; }
+body {background-image: url("../images/home-section-3-bg.jpg");
+  background-repeat: repeat -x;
+  color: #ffffff;
+  background-attachment: ;
+  width: 100%;
+margin-left: 0%;
+margin-top:0%;
+box-sizing: border-box;
+}
+#header{
+  background-color: #f0dbb6;
+	width: 100%;
+  opacity: 0.7;
+	text-align: left;
+  position: static;
+  padding-left: 00px;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#header:hover{
+  opacity: 1.0;
+}
+#header img{
+	display: block;
+	border: ;
+	width: ;
+	padding-left: 0px;
+	position: ;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header a.skp{
+	border: ;
+  text-align: right;
+	color: #f28500;
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 90%;
+  padding-bottom: 0px;
+}
+div.list{
+  border: ;
+  padding-left: 0px;
+	padding-right: 60px;
+  margin-left: 200px;
+	text-align: right;
+}
+div.list ul,li{
+  display: inline;
+	margin: 0px;
+  text-decoration: none;
+  font-size: 15px;
+	text-decoration: none;
+	text-align: right;
+	list-style-type: none;
+  margin-left: 30px;
+
+}
+
+div.list a{
+  border:none;
+  display: inline;
+  padding-left:10px;
+  padding-right: 10px;
+	margin-right: -34px;
+  text-decoration: none;
+  font-size: 15px;
+	text-decoration: none;
+	text-align: right;
+  color: #634a33;
+	/*list-style-type: none;
+  margin-left: 30px;*/
+}
+div.list a:hover{
+  font-size: 16px;
+  background-color: #634a33;
+  color: #f0dbb6;
+  transition: 0.63s;
+}
+div.main{
+  background-image: url("../images/bkg.jpg");
+  height: 530px;
+  border: ;
+  text-align: center;
+  position: inherit;
+  padding-top: 20px;
+  opacity: 0.8;
+}
+.main:hover{
+  opacity: 1.0;
+}
+div.map{
+  color:#634a33;
+  border: ;
+  float:left;
+  margin-left: 250px;
+  margin-right: 180px;
+  padding: 40px;
+  padding-top:1px;
+  padding-bottom: 20px;
+  background-color: #f0dbb6;
+  opacity: 0.7;
+}
+.map:hover{
+  opacity: 1.0;
+}
+.map img{
+  border: ;
+  padding-top:50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  /*float: center;*/
+}
+.map a{
+  font-size: 13px;
+  border: ;
+  padding-right:10px;
+  padding-left:10px;
+  margin-left:0px;
+  text-align: center;
+  text-decoration: none;
+  color: #634a33;
+}
+.map a:hover{
+  font-size: 15px;
+  background-color: #634a33;
+  color: #f0dbb6;
+  transition: 0.73s;
+}
+.app{
+  border:;
+  margin-top:40px;
+  margin-right: 200px;
+  float:right;
+}
+#main_content{
+  border: ;
+  weight: 100%;
+  color:#f28500;
+}
+#gl{
+  border-right: 2px solid white;
+	text-align: center;
+	margin-left: 200px;
+  float:left;
+}
+#gl img{
+	border: ;
+	width: 35%;
+	height: 35%;
+	margin-top:-15px;
+}
+#gl a{
+	text-decoration: none;
+	border: ;
+	padding: 2px 7px;
+	font-size: 15px;
+	background-color:#5da7cf;
+	color: #ffffff;
+}
+#gl a:hover{
+	font-size: 16px;
+	background-color:#5da7cf;
+	color: #ffffff;
+	transition: 0.58s;
+}
+#nh{
+  border-right: 2px solid white;
+	text-align: center;
+	margin-left: 20px;
+  float:left;
+}
+#nh a{
+	text-decoration: none;
+	border: ;
+	padding: 2px 7px;
+	font-size: 15px;
+	background-color:#5da7cf;
+	color: #ffffff;
+}
+#nh a:hover{
+	font-size: 16px;
+	background-color:#5da7cf;
+	color: #ffffff;
+	transition: 0.58s;
+}
+#sn{
+  border: ;
+	text-align: center;
+	margin-left: 20px;
+  float:left;
+  clear: right;
+}
+#sn a{
+	text-decoration: none;
+	border: ;
+	padding: 2px 7px;
+	font-size: 15px;
+	background-color:#5da7cf;
+	color: #ffffff;
+}
+#sn a:hover{
+	font-size: 16px;
+	background-color:#5da7cf;
+	color: #ffffff;
+	transition: 0.58s;
+}
+div.pt{
+	border: ;
+	clear: left;
+	color: #f28500;
+}
+.st{
+	margin-left: 10px;
+	float: left;
+}
+.st a{
+	text-decoration: none;
+	border: ;
+	padding: 2px 7px;
+	font-size: 15px;
+	color:#5da7cf;
+}
+.st a:hover{
+	font-size: 16px;
+	color:#5da7cf;
+	transition: 0.58s;
+}
+.lg{
+	border: ;
+	margin-top:-50px;
+	float:right;
+	clear: left;
+}
+.lg img{
+	float: right;
+	margin-top: -46px;
+	margin-bottom: auto;
+	margin-right: 90px;
+	width: 40%;
+	height: 30%;
+	border: ;
+}
+#ft{
+	height:;
+	background-color: #634a33;
+	color:#f0dbb6;
+	text-align: center;
+	clear: right;
+	font-size: 13px;
+}
+#ft p,span{
+	margin-top: 40px;
+}
